@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Gold circular sticker with monogram version -->
+  <circle cx="100" cy="100" r="95" fill="#C8A04A"/>
+
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#F5EFE6" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- LA monogram -->
+  <text x="100" y="118" text-anchor="middle" font-family="'Great Vibes', 'Brush Script MT', cursive" font-size="72" fill="#F5EFE6">LA</text>
+</svg>

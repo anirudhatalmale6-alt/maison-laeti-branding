@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Comfortaa:wght@400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Gold circular sticker for sealing tissue paper -->
+  <circle cx="100" cy="100" r="95" fill="#C8A04A"/>
+
+  <!-- Inner subtle ring -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#F5EFE6" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- MAISON text -->
+  <text x="100" y="88" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="700" font-size="28" fill="#F5EFE6" letter-spacing="4">MAISON</text>
+
+  <!-- laeti text -->
+  <text x="100" y="122" text-anchor="middle" font-family="'Comfortaa', 'Century Gothic', sans-serif" font-weight="400" font-size="25" fill="#F5EFE6" letter-spacing="1">laeti</text>
+</svg>
