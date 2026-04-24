@@ -2,50 +2,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 360" width="220" height="360">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Comfortaa:wght@400&amp;family=Great+Vibes&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Comfortaa:wght@400&amp;display=swap');
     </style>
   </defs>
 
-  <!-- Tag shape with rounded corners -->
   <rect x="5" y="5" width="210" height="350" rx="8" fill="#F9F6F0" stroke="#C8A04A" stroke-width="1"/>
-
-  <!-- Hole for string -->
   <circle cx="110" cy="30" r="6" fill="none" stroke="#C8A04A" stroke-width="1.2"/>
-
-  <!-- Gold line separator top -->
   <line x1="30" y1="55" x2="190" y2="55" stroke="#C8A04A" stroke-width="0.6" opacity="0.5"/>
 
-  <!-- Needle and thread icon (small, refined) -->
-  <g transform="translate(110, 100) scale(0.45)" fill="none" stroke="#C8A04A" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="-38" y1="38" x2="35" y2="-35" stroke-width="2.8"/>
-    <ellipse cx="30" cy="-30" rx="3" ry="5.5" transform="rotate(-45, 30, -30)" stroke-width="2"/>
-    <circle cx="-40" cy="40" r="1.2" fill="#C8A04A" stroke="none"/>
-    <path d="M 24,-24 C 42,-5 25,18 5,15 C -15,12 -28,-5 -22,-22 C -16,-39 5,-38 18,-28" stroke-width="1.8"/>
-    <path d="M 5,15 C -12,28 -35,22 -32,5 C -29,-12 -15,-22 0,-18" stroke-width="1.8"/>
-    <path d="M -32,5 C -42,14 -40,28 -32,34" stroke-width="1.8"/>
+  <!-- Needle icon (scaled down version I) -->
+  <g transform="translate(110, 100) scale(0.4)" fill="none" stroke="#C8A04A" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="-48" y1="48" x2="48" y2="-48" stroke-width="3"/>
+    <ellipse cx="40" cy="-40" rx="4" ry="7" transform="rotate(-45, 40, -40)" stroke-width="1.8"/>
+    <ellipse cx="32" cy="-32" rx="2.5" ry="4.5" transform="rotate(-45, 32, -32)" stroke-width="1.5"/>
+    <circle cx="-50" cy="50" r="1.2" fill="#C8A04A" stroke="none"/>
+    <path d="M 25,-20 C 60,10 45,48 5,55 C -35,62 -65,28 -58,-10 C -52,-45 -18,-62 15,-52 C 42,-44 45,-18 28,0" stroke-width="2.2"/>
+    <path d="M 5,55 C -18,38 -38,8 -35,-22" stroke-width="2.2"/>
+    <path d="M -58,-10 C -72,10 -65,42 -50,55" stroke-width="2.2"/>
   </g>
 
-  <!-- MAISON text -->
-  <text x="110" y="160" text-anchor="middle" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="700" font-size="24" fill="#1B2A6B" letter-spacing="5">MAISON</text>
-
-  <!-- laeti text -->
-  <text x="110" y="190" text-anchor="middle" font-family="'Comfortaa', 'Century Gothic', sans-serif" font-weight="400" font-size="21" fill="#1B2A6B" letter-spacing="1">laeti</text>
-
-  <!-- Gold line separator -->
+  <text x="110" y="160" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="700" font-size="24" fill="#1B2A6B" letter-spacing="5">MAISON</text>
+  <text x="110" y="190" text-anchor="middle" font-family="'Comfortaa', sans-serif" font-weight="400" font-size="21" fill="#1B2A6B" letter-spacing="1">laeti</text>
   <line x1="50" y1="210" x2="170" y2="210" stroke="#C8A04A" stroke-width="0.6" opacity="0.5"/>
-
-  <!-- Tagline -->
   <text x="110" y="235" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="400" font-size="7" fill="#1B2A6B" letter-spacing="3" opacity="0.7">L'ART DE BIEN DORMIR</text>
-
-  <!-- Product info area -->
   <text x="110" y="270" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="400" font-size="8" fill="#888" letter-spacing="1">COMPOSICAO / COMPOSITION</text>
   <line x1="40" y1="280" x2="180" y2="280" stroke="#ddd" stroke-width="0.5"/>
   <line x1="40" y1="293" x2="180" y2="293" stroke="#ddd" stroke-width="0.5"/>
-
-  <!-- Size area -->
   <text x="110" y="315" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="400" font-size="8" fill="#888" letter-spacing="1">TAMANHO / SIZE</text>
   <line x1="70" y1="325" x2="150" y2="325" stroke="#ddd" stroke-width="0.5"/>
-
-  <!-- Bottom: website -->
   <text x="110" y="347" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="400" font-size="6.5" fill="#C8A04A" letter-spacing="2">MAISONLAETI.COM.BR</text>
 </svg>

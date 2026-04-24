@@ -6,24 +6,19 @@
     </style>
   </defs>
 
-  <!-- Email signature logo with refined needle icon -->
-  <g transform="translate(40, 60) scale(0.35)" fill="none" stroke="#C8A04A" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="-38" y1="38" x2="35" y2="-35" stroke-width="2.8"/>
-    <ellipse cx="30" cy="-30" rx="3" ry="5.5" transform="rotate(-45, 30, -30)" stroke-width="2"/>
-    <circle cx="-40" cy="40" r="1.2" fill="#C8A04A" stroke="none"/>
-    <path d="M 24,-24 C 42,-5 25,18 5,15 C -15,12 -28,-5 -22,-22 C -16,-39 5,-38 18,-28" stroke-width="1.8"/>
-    <path d="M 5,15 C -12,28 -35,22 -32,5 C -29,-12 -15,-22 0,-18" stroke-width="1.8"/>
+  <!-- Needle icon scaled down -->
+  <g transform="translate(38, 58) scale(0.32)" fill="none" stroke="#C8A04A" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="-48" y1="48" x2="48" y2="-48" stroke-width="3"/>
+    <ellipse cx="40" cy="-40" rx="4" ry="7" transform="rotate(-45, 40, -40)" stroke-width="1.8"/>
+    <ellipse cx="32" cy="-32" rx="2.5" ry="4.5" transform="rotate(-45, 32, -32)" stroke-width="1.5"/>
+    <circle cx="-50" cy="50" r="1.2" fill="#C8A04A" stroke="none"/>
+    <path d="M 25,-20 C 60,10 45,48 5,55 C -35,62 -65,28 -58,-10 C -52,-45 -18,-62 15,-52 C 42,-44 45,-18 28,0" stroke-width="2.2"/>
+    <path d="M 5,55 C -18,38 -38,8 -35,-22" stroke-width="2.2"/>
+    <path d="M -58,-10 C -72,10 -65,42 -50,55" stroke-width="2.2"/>
   </g>
 
-  <!-- Divider -->
   <line x1="72" y1="25" x2="72" y2="95" stroke="#C8A04A" stroke-width="0.8" opacity="0.4"/>
-
-  <!-- MAISON -->
   <text x="88" y="55" font-family="'Montserrat', sans-serif" font-weight="700" font-size="24" fill="#1B2A6B" letter-spacing="4">MAISON</text>
-
-  <!-- laeti -->
   <text x="90" y="80" font-family="'Comfortaa', sans-serif" font-weight="400" font-size="20" fill="#1B2A6B" letter-spacing="1">laeti</text>
-
-  <!-- Website -->
   <text x="88" y="100" font-family="'Montserrat', sans-serif" font-weight="400" font-size="7" fill="#C8A04A" letter-spacing="1.5">MAISONLAETI.COM.BR  |  @MAISONLAETI</text>
 </svg>
